@@ -104,9 +104,9 @@ def tool_main_function():
 		print"\033[1;91m[!] Wrong input"
 		exit()
 	elif login_method =="1":
-		login()
+	login()
 	elif login_method =="2":
-		fbtoken()
+		fb login()
 	elif login_method =="0":
 		exit()
 	else:
@@ -118,7 +118,7 @@ def tool_main_function():
 def login():
 	os.system('clear')
 	try:
-		fb_token = open('login.txt','r')
+		fb_login = open('login.txt','r')
 		menu()
 	except (KeyError,IOError):
 		os.system('clear')
