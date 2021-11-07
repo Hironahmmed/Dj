@@ -26,7 +26,7 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/36.2.2254/119.1
 #-exit-#
 def exit():
 	os.system('clear')
-	print "\033[1;91m[!] Closing the tool..."
+	print "\033[1;91m[!] opening the tool..."
 	os.system('sleep 3 && clear')
 	os.system('xdg-open https://m.facebook.com/profile.php?id=100062040158536.git')
 	os.sys.exit()
