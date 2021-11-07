@@ -106,7 +106,7 @@ def tool_main_function():
 	elif login_method =="1":
 	login()
 	elif login_method =="2":
-		fb login()
+		facebook login()
 	elif login_method =="0":
 		exit()
 	else:
